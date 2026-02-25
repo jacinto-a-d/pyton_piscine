@@ -2,18 +2,22 @@
 # ########################################################################### #
 #                                                                             #
 #                                                          :::      ::::::::  #
-#   ft_garden_summary.py                                 :+:      :+:    :+:  #
+#   ft_garden_intro.py                                   :+:      :+:    :+:  #
 #                                                      +:+ +:+         +:+    #
 #   By: jabad-di <jabad-di@student.42malaga.com>     +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
-#   Created: 2026/02/24 20:46:54 by jabad-di            #+#    #+#            #
-#   Updated: 2026/02/25 17:56:48 by jabad-di           ###   ########.fr      #
+#   Created: 2026/02/25 18:32:17 by jabad-di            #+#    #+#            #
+#   Updated: 2026/02/25 18:58:37 by jabad-di           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
-def ft_garden_summary():
-    garden = input("Enter garden name: ")
-    plants = input("Enter number of plants: ")
-    print("Garden:", garden)
-    print("Plants:", plants)
-    print("Status: Growing well!")
+plant: str = "Rose"
+height: int = 25
+age: int = 30
+
+if __name__ == "__main__":
+    print("=== Welcome to My Garden")
+    print(f"Plant: {plant}")
+    print(f"Height: {height}cm")
+    print(f"Age: {age} days\n")
+    print("=== End of Program ===")

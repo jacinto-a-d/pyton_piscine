@@ -7,11 +7,11 @@
 #   By: jabad-di <jabad-di@student.42malaga.com>     +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: 2026/02/24 20:13:02 by jabad-di            #+#    #+#            #
-#   Updated: 2026/02/24 20:40:36 by jabad-di           ###   ########.fr      #
+#   Updated: 2026/02/25 17:55:17 by jabad-di           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
-def ft_count_haverst_recursive():
+def ft_count_harvest_recursive():
     total_day = int(input("Days until harvest: "))
 
     def count_days(current):
